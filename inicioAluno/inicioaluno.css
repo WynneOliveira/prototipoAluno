@@ -1,18 +1,1 @@
-import{@paginainicial};
-h1{
-    color: blueviolet;
-}
 
-aside{
-
-
-    float:right;
-    background-color: black;
-    color: white;
-    overflow: hidden;
-    margin-left: 70%;
-    padding: 1%;
-
-
-
-}

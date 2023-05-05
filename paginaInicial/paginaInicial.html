@@ -10,29 +10,26 @@
         <title>Creación de una página Web</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="styles.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="paginainicial.css">
       </head>
     <body>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        <div id ="principal" class="container">
-          <div id="cabecera" class="row">
-             <div id="logo" class="col"><video class="como poner video" width="300px" height="300px" source src="logo.mp4" type="video/mp4"></div>
-          </div>
-          <!--Layout del login-->
-            <div class="login-form">
-              <h3>Usuario:</h3>
-              <input type="text" placeholder="Usuario"/><br>
-              <h3>Contraseña:</h3>
-              <input type="password" placeholder="Contraseña"/>
-              <br>
-              <!--contraseña-->
-              <input type="button" value="Acceder" class="login-button"/>
-              <br>
-              
-            </div>
-          </div>
+        <br><br>      
+        <img src="logo.jpg" class="imgRedonda" width="500" height="333">
+        <form align="center" action="/action_page.php">
+          <label for="fname">E-mail:</label><br>
+          <input type="text" id="fname" name="fname" value="nombre@mail.com"><br>
+          <label for="lname">Contraseña:</label><br>
+          <input type="text" id="lname" name="lname" value="*****"><br><br>
+          <input type="submit" value="Submit">
+        </form> 
+        <br><br>
+        <footer>
+          Derechos Reservados Wynne's School &copy; 2023
+          </footer>
+
     </body>
 </html>
