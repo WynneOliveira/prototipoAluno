@@ -1,1 +1,13 @@
-
+body{background-color:aliceblue;
+.descargaRedonda {
+    display: block;
+    margin:auto;
+    width:150px;
+    height:150px;
+    border-radius:150px;
+}
+.ftable, th, td {
+    border:1px solid black;
+  }
+}
+;
